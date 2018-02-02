@@ -1,0 +1,12 @@
+h1 {
+	font font-family: MyriadPro;
+	font-size: 2.15em;
+}
+p{
+  color:#000000;
+  font-family: "Myriad-Pro", helvetica, sans-serif;
+  font-size: 1.15em;
+  font-weight: 300;
+  max-width: 900px;
+  text-align: justify;
+}
