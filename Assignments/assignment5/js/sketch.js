@@ -8,7 +8,7 @@ var textLeft = 30;
 
 //** Preload function ** //
 function preload(){
-  yearsVsFloors = loadTable('../data/yearsVsFloors.csv', 'csv', 'header');
+  yearsVsFloors = loadTable('./data/yearsVsFloors.csv', 'csv', 'header');
   console.log('Done loading table...');
 }
 
