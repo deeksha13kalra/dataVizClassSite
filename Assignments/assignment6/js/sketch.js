@@ -44,20 +44,20 @@ function setup(){
     line(map(i, 0, 14, 40, 1010), topY , map(i, 0, 14, 40, 1010), bottomY);
   }  
 
-  button1 = createButton('Button 1');
-  button1.position(200, 1000);
+  button1 = createButton('clear');
+  button1.position(200, 940);
   button1.mousePressed(func_button1);
 
-  button2 = createButton('Button 2');
-  button2.position(300, 1000);
+  button2 = createButton('Original Construction');
+  button2.position(280, 940);
   button2.mousePressed(func_button2);
 
-  button3 = createButton('Button 3');
-  button3.position(400, 1000);
+  button3 = createButton('YearAlter1');
+  button3.position(480, 940);
   button3.mousePressed(func_button3);
 
-  button4 = createButton('Button 4');
-  button4.position(500, 1000);
+  button4 = createButton('YearAlter2');
+  button4.position(600, 940);
   button4.mousePressed(func_button4);
 
 }
