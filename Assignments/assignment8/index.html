@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>p5.js Weather App</title>
+    <!-- Google fonts code -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Baloo" rel="stylesheet">
+    <!-- Link to the p5.js library -->
+    <script language="javascript" type="text/javascript" src="js/p5.js"></script>
+    <script language="javascript" type="text/javascript" src="js/p5.dom.js"></script>
+    <!-- Link to p5 sketch file -->
+    <script language="javascript" type="text/javascript" src="js/sketch.js"></script>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+   /* .row.content {height: 1500px}
+    
+                 .row.content {height: auto;}*/ 
+ h1{
+  font-family: "Baloo", helvetica, sans-serif;
+     }
+      </style>
+  </head>
+  <body>
+   <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+     <!--  <a class="navbar-brand" href="#">Portfolio</a> -->
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="../../index.html">Home</a></li>
+        <li><a href="#">Biography</a></li>
+        <li><a href="#">Assignments</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <!-- <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul> -->
+    </div>
+  </div>
+</nav>
+
+<div class="jumbotron">
+  <div class="container text-center">
+    <h1>The Minions Weather Forecast</h1>   
+    </br> 
+
+   
+    <p>
+        Bello! Where are tu? <input id = "city" value="Banana City"></input>
+        <br/>
+        <br/>
+        <button id ="submit">Get Weather</button>
+      
+  </div>
+</div>
+  
+<div class="container-fluid bg-3 text-center">    
+   <h3>
+  <div class="row">
+     <div class="col-sm-4">
+    <div id="jumbo-canvas" class="jumbotron"></div></div>
+  <div class="col-sm-8"><img id="headerImg" src="images/LightRain.gif" width='38%'></div>
+
+         </h3>
+      </div>
+    </div>
+  </body>
+</html>
+
+
+
+
